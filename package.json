@@ -1,0 +1,15 @@
+{
+  "name": "testdouble-ts-node-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --loader=ts-node/esm --loader=testdouble src/source.spec.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "testdouble": "3.20.1",
+    "ts-node": "10.9.2"
+  }
+}
